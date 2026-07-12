@@ -310,12 +310,12 @@ SelfBalanceRobot/
 ├── TPF_SCD_RobotBalancin_EN.pdf          ← Compiled technical report (English)
 │
 ├── 1- Matlab/
-│   └── Discomp_RobotBalancin.m           ← Plant modelling, ZOH discretisation,
+│   └── Discomp_SelfBalanceRobot.m           ← Plant modelling, ZOH discretisation,
 │                                            LQR design & closed-loop simulation
 │
 ├── 2- Arduino/
-│   ├── main_RobotBalancin/               ← Main sketch + all custom libraries
-│   │   ├── main_RobotBalancin.ino        ← Entry point (setup + loop)
+│   ├── main_SelfBalanceRobot/               ← Main sketch + all custom libraries
+│   │   ├── main_SelfBalanceRobot.ino        ← Entry point (setup + loop)
 │   │   ├── Gyro.h / Gyro.cpp            ← MPU-6050 driver v1 (Kalman filter)
 │   │   ├── Gyro_MPU.h / Gyro_MPU.cpp   ← MPU-6050 driver v2 (production, with rates)
 │   │   ├── Taco_twoPin.h / .cpp         ← Interrupt-driven optical encoder class
@@ -350,7 +350,7 @@ SelfBalanceRobot/
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
-│                   main_RobotBalancin.ino                     │
+│                   main_SelfBalanceRobot.ino                     │
 │                                                              │
 │  ┌─────────────┐   ┌──────────────┐   ┌───────────────────┐ │
 │  │  Gyro_MPU   │   │  Taco × 2    │   │ VelocityIntegrator│ │
@@ -415,7 +415,7 @@ Demo videos are available in the [`4- Multimedia/`](4-%20Multimedia/) folder.
 
 1. Open MATLAB (R2021a or newer recommended).
 2. Navigate to the `1- Matlab/` folder.
-3. Run `Discomp_RobotBalancin.m`.
+3. Run `Discomp_SelfBalanceRobot.m`.
 4. The script will:
    - Compute plant parameters from component masses and geometry.
    - Build the continuous-time state-space model (A, B, C, D).
@@ -428,7 +428,7 @@ Demo videos are available in the [`4- Multimedia/`](4-%20Multimedia/) folder.
 
 **Requirements:** Arduino IDE 1.8+ or Arduino IDE 2.x, built-in Wire library.
 
-1. Open `2- Arduino/main_RobotBalancin/main_RobotBalancin.ino` in the Arduino IDE.
+1. Open `2- Arduino/main_SelfBalanceRobot/main_SelfBalanceRobot.ino` in the Arduino IDE.
 2. Confirm all `.h` and `.cpp` files are present in the same folder.
 3. Select **Board: Arduino Uno** and the correct COM port.
 4. Upload the sketch.
