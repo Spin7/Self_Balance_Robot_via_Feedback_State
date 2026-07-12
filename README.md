@@ -1,4 +1,8 @@
-﻿# Self-Balancing Robot — State Feedback Control (Inverted Pendulum)
+# Self-Balancing Robot — State Feedback Control (Inverted Pendulum)
+
+<p align="center">
+  <img src="4- Multimedia/SelfBalanceRobot.png" width="70%" alt="Self-Balancing Robot — Paco"/>
+</p>
 
 > *"Behold, traveler of the edge, the dance of an upright body against the tyranny of gravity!"*
 
@@ -443,6 +447,19 @@ Demo videos are available in the [`4- Multimedia/`](4-%20Multimedia/) folder.
 
 1. Katsuhiko Ogata. *Discrete-Time Control Systems*, 2nd ed., Prentice Hall, Upper Saddle River, NJ, 1995.
 2. Ramírez-González, L., García-Martínez, J., Siordia-Vásquez, X. & Garcia-Ramos, R. (2017). *Euler-Lagrange en el modelado y control de un péndulo invertido sobre un carro*. Revista de Ingeniería Eléctrica, ECORFAN, 1(3), 1–8.
+
+---
+
+## Demo Video
+
+<p align="center">
+  <a href="https://youtu.be/RLYL08lZvbI" target="_blank">
+    <img src="https://img.youtube.com/vi/RLYL08lZvbI/maxresdefault.jpg" width="70%" alt="Watch the demo on YouTube"/>
+  </a>
+</p>
+<p align="center">
+  <strong>▶ <a href="https://youtu.be/RLYL08lZvbI">Watch the full demo on YouTube</a></strong>
+</p>
 
 ---
 
