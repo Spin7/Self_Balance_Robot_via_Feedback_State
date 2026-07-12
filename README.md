@@ -454,7 +454,7 @@ Demo videos are available in the [`4- Multimedia/`](4-%20Multimedia/) folder.
 
 <p align="center">
   <a href="https://youtu.be/RLYL08lZvbI" target="_blank">
-    <img src="https://img.youtube.com/vi/RLYL08lZvbI/maxresdefault.jpg" width="70%" alt="Watch the demo on YouTube"/>
+    <img src="https://img.youtube.com/vi/RLYL08lZvbI/hqdefault.jpg" width="70%" alt="Watch the demo on YouTube"/>
   </a>
 </p>
 <p align="center">
